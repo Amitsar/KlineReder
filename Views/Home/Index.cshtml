@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Trading Data Test</h2>
+
+<div class="p-3 m-2">
+    <label>Symbol:</label>
+    <select id="symbolSelect"> </select>
+
+    <label>Time Range:</label>
+    <select id="timeRange">
+       @*  <option value="1h">1 Hour</option> *@
+        <option value="1d" selected>1 Day</option>
+        <option value="1w">1 Week</option>
+        <option value="1m">1 Month</option>
+        <option value="1y">1 Year</option>
+        <option value="2y">2 Year</option>
+    </select>
+
+    <label>Chart Type:</label>
+    <select id="chartType">
+        <option value="candlestick" selected>Candlestick</option>
+        <option value="area">Area</option>
+    </select>
+</div>
+
+<div id="chartContainer" style="width: 1200px; height: 600px;"></div>
+
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+<script src="~/js/datafeed.js"></script>
+

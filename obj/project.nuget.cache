@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NbuNZERBQLw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Intel\\source\\repos\\Amitsar\\KlineReder\\KlineReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Intel\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
